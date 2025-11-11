@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ressources - Guide IA</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-brain"></i>
+                <span>IA Guide</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="types.html">Types d'IA</a></li>
+                <li><a href="applications.html">Applications</a></li>
+                <li><a href="future.html">Futur</a></li>
+                <li><a href="ressources.html" class="active">Ressources</a></li>
+                <li><a href="../index.html#key-aspects" class="back-button"><i class="fas fa-arrow-left"></i> Retour aux Points Clés</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="progress-bar"></div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Ressources</h1>
+                <p class="subtitle">Explorez les Outils et Ressources pour Comprendre l'IA</p>
+            </div>
+        </section>
+
+        <section class="content">
+            <h2 class="gradient-text">Ressources d'Apprentissage</h2>
+            <p class="lead-text">
+                Découvrez une sélection de ressources pour approfondir vos connaissances sur l'intelligence artificielle, 
+                des cours en ligne aux outils pratiques en passant par les communautés d'apprentissage.
+            </p>
+
+            <div class="interactive-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="cours"><span>Cours en Ligne</span></button>
+                    <button class="tab-btn" data-tab="outils"><span>Outils Pratiques</span></button>
+                    <button class="tab-btn" data-tab="communautes"><span>Communautés</span></button>
+                </div>
+
+                <div class="tab-content">
+                    <div class="tab-panel active" id="cours">
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <i class="fas fa-graduation-cap card-icon"></i>
+                                <h3>Coursera</h3>
+                                <p>Plateforme offrant des cours de qualité sur l'IA et le machine learning.</p>
+                                <a href="https://www.coursera.org" class="resource-link" target="_blank">Visiter le site <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                            <div class="info-card">
+                                <i class="fas fa-laptop-code card-icon"></i>
+                                <h3>edX</h3>
+                                <p>Cours en ligne des meilleures universités sur l'intelligence artificielle.</p>
+                                <a href="https://www.edx.org" class="resource-link" target="_blank">Visiter le site <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                            <div class="info-card">
+                                <i class="fas fa-book card-icon"></i>
+                                <h3>Fast.ai</h3>
+                                <p>Ressources pratiques pour apprendre le deep learning de manière accessible.</p>
+                                <a href="https://www.fast.ai" class="resource-link" target="_blank">Visiter le site <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-panel" id="outils">
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <i class="fas fa-code card-icon"></i>
+                                <h3>TensorFlow</h3>
+                                <p>Bibliothèque open-source pour le machine learning et le deep learning.</p>
+                                <a href="https://www.tensorflow.org" class="resource-link" target="_blank">Visiter le site <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                            <div class="info-card">
+                                <i class="fas fa-brain card-icon"></i>
+                                <h3>PyTorch</h3>
+                                <p>Framework de deep learning flexible et puissant.</p>
+                                <a href="https://pytorch.org" class="resource-link" target="_blank">Visiter le site <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                            <div class="info-card">
+                                <i class="fas fa-robot card-icon"></i>
+                                <h3>Scikit-learn</h3>
+                                <p>Bibliothèque Python pour le machine learning et l'analyse de données.</p>
+                                <a href="https://scikit-learn.org" class="resource-link" target="_blank">Visiter le site <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-panel" id="communautes">
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <i class="fab fa-github card-icon"></i>
+                                <h3>GitHub</h3>
+                                <p>Plateforme de collaboration et de partage de projets d'IA.</p>
+                                <a href="https://github.com" class="resource-link" target="_blank">Visiter le site <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                            <div class="info-card">
+                                <i class="fab fa-stack-overflow card-icon"></i>
+                                <h3>Stack Overflow</h3>
+                                <p>Communauté de développeurs pour poser des questions et partager des solutions.</p>
+                                <a href="https://stackoverflow.com" class="resource-link" target="_blank">Visiter le site <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                            <div class="info-card">
+                                <i class="fab fa-reddit card-icon"></i>
+                                <h3>r/MachineLearning</h3>
+                                <p>Communauté Reddit dédiée au machine learning et à l'IA.</p>
+                                <a href="https://www.reddit.com/r/MachineLearning" class="resource-link" target="_blank">Visiter le site <i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <h3 class="gradient-text">Niveaux de Difficulté</h3>
+                <p class="chart-description">
+                    Guide pour choisir les ressources adaptées à votre niveau de connaissance.
+                </p>
+                <div class="challenges-list">
+                    <div class="challenge-item">
+                        <i class="fas fa-seedling"></i>
+                        <div class="challenge-content">
+                            <span class="challenge-title">Débutant</span>
+                            <p class="challenge-description">Introduction aux concepts fondamentaux de l'IA</p>
+                            <div class="challenge-bar" data-value="30">
+                                <div class="bar-fill"></div>
+                                <span class="bar-value">30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="challenge-item">
+                        <i class="fas fa-tree"></i>
+                        <div class="challenge-content">
+                            <span class="challenge-title">Intermédiaire</span>
+                            <p class="challenge-description">Applications pratiques et projets concrets</p>
+                            <div class="challenge-bar" data-value="60">
+                                <div class="bar-fill"></div>
+                                <span class="bar-value">60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="challenge-item">
+                        <i class="fas fa-mountain"></i>
+                        <div class="challenge-content">
+                            <span class="challenge-title">Avancé</span>
+                            <p class="challenge-description">Recherche et développement de solutions complexes</p>
+                            <div class="challenge-bar" data-value="90">
+                                <div class="bar-fill"></div>
+                                <span class="bar-value">90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="content">
+            <h2>Livres Recommandés</h2>
+            <p class="lead-text">
+                Une sélection de livres essentiels pour approfondir votre compréhension de l'intelligence artificielle.
+            </p>
+
+            <div class="comparison-container">
+                <div class="advantages-section">
+                    <h3>Pour Débutants</h3>
+                    <div class="advantage-list">
+                        <div class="advantage-item">
+                            <i class="fas fa-book-open"></i>
+                            <div class="advantage-content">
+                                <h4>L'IA pour les Nuls</h4>
+                                <p>Introduction accessible aux concepts fondamentaux de l'IA.</p>
+                            </div>
+                        </div>
+                        <div class="advantage-item">
+                            <i class="fas fa-brain"></i>
+                            <div class="advantage-content">
+                                <h4>Machine Learning pour les Débutants</h4>
+                                <p>Guide pratique pour comprendre les bases du machine learning.</p>
+                            </div>
+                        </div>
+                        <div class="advantage-item">
+                            <i class="fas fa-code"></i>
+                            <div class="advantage-content">
+                                <h4>Python pour l'IA</h4>
+                                <p>Apprendre Python dans le contexte de l'intelligence artificielle.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="disadvantages-section">
+                    <h3>Pour Experts</h3>
+                    <div class="disadvantage-list">
+                        <div class="disadvantage-item">
+                            <i class="fas fa-microchip"></i>
+                            <div class="disadvantage-content">
+                                <h4>Deep Learning</h4>
+                                <p>Approfondissement des concepts avancés du deep learning.</p>
+                            </div>
+                        </div>
+                        <div class="disadvantage-item">
+                            <i class="fas fa-project-diagram"></i>
+                            <div class="disadvantage-content">
+                                <h4>Réseaux de Neurones</h4>
+                                <p>Théorie et applications pratiques des réseaux neuronaux.</p>
+                            </div>
+                        </div>
+                        <div class="disadvantage-item">
+                            <i class="fas fa-robot"></i>
+                            <div class="disadvantage-content">
+                                <h4>IA Avancée</h4>
+                                <p>Étude approfondie des dernières avancées en intelligence artificielle.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Réalisé par :</h3>
+                <p>Klebi Rami</p>
+                <p>Grissi Chahin</p>
+                <p>Mechti Ahmed</p>
+            </div>
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="types.html">Types d'IA</a></li>
+                    <li><a href="applications.html">Applications</a></li>
+                    <li><a href="future.html">Futur</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: KlebiRami@gmail.com</p>
+                <p>Email: grissichahin@gmail.com</p>
+                <p>Email: ahmedmechti22@gmail.com</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <script src="../scripts/ressources.js"></script>
+</body>
+</html> 

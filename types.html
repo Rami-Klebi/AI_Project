@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types d'Intelligence Artificielle - Guide IA</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../styles/print.css" media="print">
+    <link rel="stylesheet" href="../styles/high-contrast.css" id="highContrastStyle" disabled>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-brain"></i>
+                <span>IA Guide</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="types.html" class="active">Types d'IA</a></li>
+                <li><a href="applications.html">Applications</a></li>
+                <li><a href="future.html">Futur</a></li>
+                <li><a href="ressources.html">Ressources</a></li>
+                <li><a href="../index.html#key-aspects" class="back-button"><i class="fas fa-arrow-left"></i> Retour aux Points Clés</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="darkModeToggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="highContrastToggle" class="theme-toggle">
+                    <i class="fas fa-adjust"></i>
+                </button>
+                <button id="printButton" class="theme-toggle">
+                    <i class="fas fa-print"></i>
+                </button>
+            </div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="progress-bar"></div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Types d'Intelligence Artificielle</h1>
+                <p class="subtitle">Comprendre les Différentes Classifications de l'IA</p>
+                <div class="reading-time">
+                    <i class="fas fa-clock"></i>
+                    <span>Temps de lecture estimé: 15 minutes</span>
+                </div>
+            </div>
+        </section>
+
+        <nav class="breadcrumb">
+            <ol>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="types.html">Types d'IA</a></li>
+            </ol>
+        </nav>
+
+        <section class="content">
+            <h2>Glossaire</h2>
+            <p class="lead-text">
+                Découvrez les termes clés et les concepts fondamentaux de l'intelligence artificielle.
+            </p>
+
+            <div class="search-container">
+                <input type="text" id="glossarySearch" placeholder="Rechercher un terme..." class="search-input">
+                <button class="search-button"><i class="fas fa-search"></i></button>
+            </div>
+
+            <div class="key-takeaways">
+                <h3>Points Clés</h3>
+                <ul>
+                    <li>L'IA se divise en trois niveaux: ANI, AGI, et ASI</li>
+                    <li>Les approches d'apprentissage incluent supervisé, non supervisé, et par renforcement</li>
+                    <li>Les architectures spécialisées sont adaptées à des tâches spécifiques</li>
+                    <li>L'IA trouve des applications dans de nombreux domaines</li>
+                </ul>
+            </div>
+
+            <div class="info-grid" id="glossaryGrid">
+                <div class="info-card">
+                    <div class="term-logo">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Apprentissage Automatique</h3>
+                    <p>Domaine de l'IA qui permet aux systèmes d'apprendre et de s'améliorer à partir d'expériences sans être explicitement programmés.</p>
+                </div>
+                
+                <div class="info-card">
+                    <div class="term-logo">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Réseaux Neuronaux</h3>
+                    <p>Systèmes informatiques inspirés des réseaux neuronaux biologiques du cerveau humain.</p>
+                </div>
+                
+                <div class="info-card">
+                    <div class="term-logo">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Deep Learning</h3>
+                    <p>Sous-domaine de l'apprentissage automatique utilisant des réseaux neuronaux profonds pour traiter des données complexes.</p>
+                </div>
+            </div>
+
+            <h2>Classifications Principales</h2>
+            <p class="lead-text">
+                L'intelligence artificielle se décline en plusieurs catégories, chacune ayant ses 
+                propres caractéristiques et applications spécifiques. Découvrez les différentes 
+                classifications qui façonnent le paysage de l'IA moderne.
+            </p>
+            
+            <div class="info-grid">
+                <div class="info-card">
+                    <i class="fas fa-robot card-icon"></i>
+                    <h3>IA Étroite (ANI)</h3>
+                    <p>Conçue pour des tâches spécifiques comme la reconnaissance faciale ou le jeu d'échecs. 
+                       C'est le type d'IA que nous utilisons actuellement dans notre vie quotidienne.</p>
+                    <div class="examples-section">
+                        <h4>Exemples Concrets:</h4>
+                        <ul>
+                            <li><strong>ChatGPT et GPT-4:</strong> Traitement du langage naturel et génération de texte</li>
+                            <li><strong>AlphaGo:</strong> Champion du jeu de Go, battant les meilleurs joueurs mondiaux</li>
+                            <li><strong>DALL-E/Midjourney:</strong> Génération d'images à partir de descriptions textuelles</li>
+                            <li><strong>Tesla Autopilot:</strong> Système de conduite assistée</li>
+                        </ul>
+                    </div>
+                    <div class="challenges-section">
+                        <h4>Limitations et Défis:</h4>
+                        <ul>
+                            <li><strong>Spécialisation:</strong> Incapable de transférer ses connaissances à d'autres domaines</li>
+                            <li><strong>Biais:</strong> Peut reproduire et amplifier les biais présents dans les données d'entraînement</li>
+                            <li><strong>Transparence:</strong> Difficulté à expliquer les décisions prises (boîte noire)</li>
+                            <li><strong>Dépendance aux données:</strong> Performance limitée par la qualité et la quantité des données</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-brain card-icon"></i>
+                    <h3>IA Générale (AGI)</h3>
+                    <p>Systèmes d'IA capables de comprendre, d'apprendre et d'appliquer des connaissances 
+                       dans différents domaines, similaire à l'intelligence humaine.</p>
+                    <div class="facts-section">
+                        <h4>État Actuel:</h4>
+                        <ul>
+                            <li>Encore au stade théorique</li>
+                            <li>Estimations d'émergence: 2045-2075</li>
+                            <li>Défis majeurs: conscience, créativité, adaptation</li>
+                            <li>Entreprises leaders: DeepMind, OpenAI, Anthropic</li>
+                        </ul>
+                    </div>
+                    <div class="challenges-section">
+                        <h4>Risques et Préoccupations:</h4>
+                        <ul>
+                            <li><strong>Contrôle:</strong> Difficulté à garantir le contrôle sur une IA plus intelligente que l'humain</li>
+                            <li><strong>Alignement:</strong> Problème d'alignement des objectifs avec les valeurs humaines</li>
+                            <li><strong>Impact social:</strong> Perturbations majeures sur l'emploi et la société</li>
+                            <li><strong>Éthique:</strong> Questions complexes sur les droits et la conscience</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-lightbulb card-icon"></i>
+                    <h3>Super IA (ASI)</h3>
+                    <p>IA hypothétique qui dépasserait l'intelligence et les capacités humaines dans 
+                       tous les domaines.</p>
+                    <div class="implications-section">
+                        <h4>Implications Potentielles:</h4>
+                        <ul>
+                            <li>Avancées médicales révolutionnaires</li>
+                            <li>Solutions aux défis climatiques</li>
+                            <li>Exploration spatiale avancée</li>
+                            <li>Questionnements éthiques majeurs</li>
+                        </ul>
+                    </div>
+                    <div class="challenges-section">
+                        <h4>Risques Existentialistes:</h4>
+                        <ul>
+                            <li><strong>Perte de contrôle:</strong> Risque d'extinction humaine si mal alignée</li>
+                            <li><strong>Course aux armements:</strong> Risque de militarisation et d'utilisation malveillante</li>
+                            <li><strong>Dépendance:</strong> Société entièrement dépendante de l'ASI</li>
+                            <li><strong>Valeurs:</strong> Difficulté à définir et implémenter des valeurs universelles</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Approches d'Apprentissage</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <i class="fas fa-graduation-cap card-icon"></i>
+                    <h3>Apprentissage Supervisé</h3>
+                    <p>L'IA apprend à partir de données étiquetées, établissant des prédictions 
+                       basées sur des exemples connus.</p>
+                    <div class="applications-section">
+                        <h4>Applications Courantes:</h4>
+                        <ul>
+                            <li><strong>Netflix:</strong> Recommandations personnalisées</li>
+                            <li><strong>Banques:</strong> Détection de fraude en temps réel</li>
+                            <li><strong>Météo:</strong> Prévisions météorologiques précises</li>
+                            <li><strong>Industrie:</strong> Maintenance prédictive</li>
+                        </ul>
+                    </div>
+                    <div class="challenges-section">
+                        <h4>Limitations:</h4>
+                        <ul>
+                            <li><strong>Données étiquetées:</strong> Nécessite de grandes quantités de données annotées</li>
+                            <li><strong>Surapprentissage:</strong> Risque de mémorisation des données d'entraînement</li>
+                            <li><strong>Coût:</strong> Annotation des données coûteuse et chronophage</li>
+                            <li><strong>Généralisation:</strong> Difficulté à s'adapter à de nouvelles situations</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-puzzle-piece card-icon"></i>
+                    <h3>Apprentissage Non Supervisé</h3>
+                    <p>L'IA découvre des motifs et des relations dans les données sans 
+                       instructions explicites.</p>
+                    <div class="use-cases-section">
+                        <h4>Cas d'Utilisation:</h4>
+                        <ul>
+                            <li>Segmentation client en marketing</li>
+                            <li>Détection d'anomalies en cybersécurité</li>
+                            <li>Analyse de tendances sur les réseaux sociaux</li>
+                            <li>Regroupement de documents similaires</li>
+                        </ul>
+                    </div>
+                    <div class="challenges-section">
+                        <h4>Défis:</h4>
+                        <ul>
+                            <li><strong>Interprétation:</strong> Difficulté à comprendre les motifs découverts</li>
+                            <li><strong>Évaluation:</strong> Absence de métriques objectives de performance</li>
+                            <li><strong>Stabilité:</strong> Résultats variables selon les initialisations</li>
+                            <li><strong>Scalabilité:</strong> Complexité algorithmique élevée</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-trophy card-icon"></i>
+                    <h3>Apprentissage par Renforcement</h3>
+                    <p>L'IA apprend par essais et erreurs, recevant des récompenses pour 
+                       les actions correctes.</p>
+                    <div class="success-stories-section">
+                        <h4>Succès Notables:</h4>
+                        <ul>
+                            <li>AlphaGo Zero: Auto-apprentissage du Go</li>
+                            <li>OpenAI Five: Jeux vidéo complexes</li>
+                            <li>Robots Boston Dynamics</li>
+                            <li>Optimisation des centres de données Google</li>
+                        </ul>
+                    </div>
+                    <div class="challenges-section">
+                        <h4>Contraintes:</h4>
+                        <ul>
+                            <li><strong>Exploration:</strong> Nécessite de nombreuses interactions</li>
+                            <li><strong>Récompenses:</strong> Difficulté à définir des fonctions de récompense appropriées</li>
+                            <li><strong>Stabilité:</strong> Apprentissage instable et difficile à reproduire</li>
+                            <li><strong>Sécurité:</strong> Risques lors de l'apprentissage dans le monde réel</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Architectures Spécialisées</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <i class="fas fa-network-wired card-icon"></i>
+                    <h3>Réseaux de Neurones</h3>
+                    <p>Systèmes inspirés du cerveau humain, utilisant des couches de neurones 
+                       artificiels pour traiter l'information.</p>
+                    
+                    <div class="history-section">
+                        <h4>Histoire et Évolution:</h4>
+                        <ul>
+                            <li><strong>1943:</strong> Premier modèle par McCulloch et Pitts</li>
+                            <li><strong>1957:</strong> Invention du Perceptron par Rosenblatt</li>
+                            <li><strong>1986:</strong> Algorithme de rétropropagation</li>
+                            <li><strong>2012:</strong> Révolution du Deep Learning avec AlexNet</li>
+                        </ul>
+                    </div>
+
+                    <div class="interactive-diagram">
+                        <h4>Structure d'un Réseau de Neurones</h4>
+                        <div class="neural-network-container">
+                            <div class="neural-network">
+                                <div class="layer input-layer" title="Couche d'entrée">
+                                    <div class="neuron" data-info="Neurone d'entrée 1"></div>
+                                    <div class="neuron" data-info="Neurone d'entrée 2"></div>
+                                    <div class="neuron" data-info="Neurone d'entrée 3"></div>
+                                    <div class="layer-label">Entrée</div>
+                                </div>
+                                <div class="connections first-connections"></div>
+                                <div class="layer hidden-layer" title="Couche cachée">
+                                    <div class="neuron" data-info="Neurone caché 1"></div>
+                                    <div class="neuron" data-info="Neurone caché 2"></div>
+                                    <div class="neuron" data-info="Neurone caché 3"></div>
+                                    <div class="neuron" data-info="Neurone caché 4"></div>
+                                    <div class="layer-label">Cachée</div>
+                                </div>
+                                <div class="connections second-connections"></div>
+                                <div class="layer output-layer" title="Couche de sortie">
+                                    <div class="neuron" data-info="Neurone de sortie 1"></div>
+                                    <div class="neuron" data-info="Neurone de sortie 2"></div>
+                                    <div class="layer-label">Sortie</div>
+                                </div>
+                            </div>
+                            <div class="diagram-legend">
+                                <p>Cliquez sur un neurone pour voir ses détails</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="features-section">
+                        <h4>Caractéristiques Principales:</h4>
+                        <ul>
+                            <li><strong>Architecture:</strong> Couches d'entrée, cachées et de sortie</li>
+                            <li><strong>Apprentissage:</strong> Ajustement des poids par rétropropagation</li>
+                            <li><strong>Activation:</strong> Fonctions non-linéaires (ReLU, Sigmoid, Tanh)</li>
+                            <li><strong>Optimisation:</strong> Descente de gradient stochastique</li>
+                        </ul>
+                    </div>
+
+                    <div class="applications-section">
+                        <h4>Applications Courantes:</h4>
+                        <ul>
+                            <li><strong>Classification:</strong> Reconnaissance d'images et de motifs</li>
+                            <li><strong>Prédiction:</strong> Séries temporelles, prévisions</li>
+                            <li><strong>Génération:</strong> Images, textes, musique</li>
+                            <li><strong>Optimisation:</strong> Problèmes complexes multi-variables</li>
+                        </ul>
+                    </div>
+
+                    <div class="challenges-section">
+                        <h4>Défis et Limitations:</h4>
+                        <ul>
+                            <li><strong>Données:</strong> Nécessite de grands jeux de données</li>
+                            <li><strong>Calcul:</strong> Ressources computationnelles importantes</li>
+                            <li><strong>Interprétabilité:</strong> Fonctionnement "boîte noire"</li>
+                            <li><strong>Généralisation:</strong> Risque de surapprentissage</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-project-diagram card-icon"></i>
+                    <h3>Réseaux de Neurones Convolutifs (CNN)</h3>
+                    <p>Spécialisés dans le traitement d'images et la vision par ordinateur, 
+                       utilisant des filtres convolutifs.</p>
+                    <div class="applications-section">
+                        <h4>Applications Modernes:</h4>
+                        <ul>
+                            <li>Diagnostic médical par imagerie</li>
+                            <li>Reconnaissance faciale</li>
+                            <li>Véhicules autonomes</li>
+                            <li>Contrôle qualité industriel</li>
+                        </ul>
+                    </div>
+                    <div class="challenges-section">
+                        <h4>Limitations:</h4>
+                        <ul>
+                            <li><strong>Données:</strong> Nécessite de grandes bases d'images annotées</li>
+                            <li><strong>Variabilité:</strong> Sensibilité aux variations d'éclairage et d'angle</li>
+                            <li><strong>Éthique:</strong> Questions sur la vie privée et la surveillance</li>
+                            <li><strong>Biais:</strong> Reproduit les biais présents dans les données d'entraînement</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-sync-alt card-icon"></i>
+                    <h3>Réseaux Récurrents (RNN)</h3>
+                    <p>Conçus pour traiter des séquences de données, idéaux pour le traitement 
+                       du langage naturel.</p>
+                    <div class="innovations-section">
+                        <h4>Innovations Clés:</h4>
+                        <ul>
+                            <li>LSTM: Mémoire à long terme</li>
+                            <li>GRU: Version optimisée du LSTM</li>
+                            <li>Attention: Révolution en traduction</li>
+                            <li>Transformers: Base de GPT et BERT</li>
+                        </ul>
+                    </div>
+                    <div class="challenges-section">
+                        <h4>Défis:</h4>
+                        <ul>
+                            <li><strong>Vanishing Gradient:</strong> Perte d'information sur les longues séquences</li>
+                            <li><strong>Calcul:</strong> Complexité temporelle élevée</li>
+                            <li><strong>Parallélisation:</strong> Difficulté à paralléliser l'entraînement</li>
+                            <li><strong>Interprétation:</strong> Compréhension limitée des décisions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Entreprises Mondiales en IA</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <i class="fas fa-building card-icon"></i>
+                    <h3>Géants Technologiques</h3>
+                    <div class="companies-section">
+                        <ul>
+                            <li><strong>Google (DeepMind):</strong> Recherche avancée en IA, AlphaGo, AlphaFold</li>
+                            <li><strong>Microsoft:</strong> Azure AI, OpenAI (partenariat), GitHub Copilot</li>
+                            <li><strong>Meta:</strong> Intelligence artificielle pour les réseaux sociaux</li>
+                            <li><strong>Amazon:</strong> AWS AI, Alexa, reconnaissance d'images</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-chart-line card-icon"></i>
+                    <h3>Startups Innovantes</h3>
+                    <div class="startups-section">
+                        <ul>
+                            <li><strong>OpenAI:</strong> GPT-4, DALL-E, ChatGPT</li>
+                            <li><strong>Anthropic:</strong> Claude AI, recherche en IA éthique</li>
+                            <li><strong>Stability AI:</strong> Stable Diffusion, génération d'images</li>
+                            <li><strong>Midjourney:</strong> Génération d'images artistiques</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-flask card-icon"></i>
+                    <h3>Recherche et Innovation</h3>
+                    <div class="research-section">
+                        <ul>
+                            <li><strong>MIT CSAIL:</strong> Recherche fondamentale en IA</li>
+                            <li><strong>Stanford AI Lab:</strong> Innovation en apprentissage automatique</li>
+                            <li><strong>DeepMind:</strong> Recherche en IA générale</li>
+                            <li><strong>FAIR (Meta):</strong> Recherche en IA ouverte</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Domaines d'Application</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <i class="fas fa-comments card-icon"></i>
+                    <h3>Traitement du Langage Naturel</h3>
+                    <p>Systèmes capables de comprendre, d'analyser et de générer du texte 
+                       en langage naturel.</p>
+                    <div class="applications-section">
+                        <h4>Domaines d'Application:</h4>
+                        <ul>
+                            <li><strong>Traduction:</strong> Traduction automatique multilingue</li>
+                            <li><strong>Analyse:</strong> Analyse de sentiment, classification de textes</li>
+                            <li><strong>Assistance:</strong> Chatbots, assistants virtuels</li>
+                            <li><strong>Documentation:</strong> Génération et résumé de textes</li>
+                            <li><strong>Recherche:</strong> Analyse de documents scientifiques</li>
+                            <li><strong>Juridique:</strong> Analyse de contrats et de jurisprudence</li>
+                        </ul>
+                    </div>
+                    <div class="innovations-section">
+                        <h4>Innovations Récentes:</h4>
+                        <ul>
+                            <li><strong>Transformers:</strong> Architecture révolutionnaire</li>
+                            <li><strong>GPT/BERT:</strong> Modèles de langage avancés</li>
+                            <li><strong>Few-shot learning:</strong> Apprentissage avec peu d'exemples</li>
+                            <li><strong>Multimodalité:</strong> Texte, image, et son combinés</li>
+                            <li><strong>Zero-shot learning:</strong> Généralisation sans exemples</li>
+                            <li><strong>Prompt Engineering:</strong> Optimisation des instructions</li>
+                        </ul>
+                    </div>
+                    <div class="challenges-section">
+                        <h4>Défis et Limitations:</h4>
+                        <ul>
+                            <li><strong>Compréhension:</strong> Difficulté à saisir le contexte profond</li>
+                            <li><strong>Biais culturels:</strong> Représentation inégale des langues et cultures</li>
+                            <li><strong>Hallucinations:</strong> Génération d'informations erronées</li>
+                            <li><strong>Éthique:</strong> Questions sur la propriété intellectuelle</li>
+                            <li><strong>Ressources:</strong> Besoin en données et en calcul</li>
+                            <li><strong>Transparence:</strong> Opacité des décisions prises</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-eye card-icon"></i>
+                    <h3>Vision par Ordinateur</h3>
+                    <p>Technologies permettant aux machines de "voir" et d'interpréter 
+                       des images et des vidéos.</p>
+                    <div class="applications-section">
+                        <h4>Applications Majeures:</h4>
+                        <ul>
+                            <li><strong>Médical:</strong> Détection de tumeurs, analyse de radiographies</li>
+                            <li><strong>Industrie 4.0:</strong> Contrôle qualité automatisé, maintenance prédictive</li>
+                            <li><strong>Sécurité:</strong> Vidéosurveillance intelligente, reconnaissance faciale</li>
+                            <li><strong>Agriculture:</strong> Surveillance des cultures, détection des maladies</li>
+                            <li><strong>Transport:</strong> Véhicules autonomes, analyse du trafic</li>
+                            <li><strong>Retail:</strong> Analyse du comportement client, inventaire automatique</li>
+                        </ul>
+                    </div>
+                    <div class="innovations-section">
+                        <h4>Technologies Avancées:</h4>
+                        <ul>
+                            <li><strong>3D Vision:</strong> Reconstruction et analyse 3D</li>
+                            <li><strong>Real-time Processing:</strong> Traitement en temps réel</li>
+                            <li><strong>Edge AI:</strong> Traitement sur appareil</li>
+                            <li><strong>Multispectral:</strong> Analyse au-delà du visible</li>
+                            <li><strong>Neural Rendering:</strong> Génération d'images réalistes</li>
+                            <li><strong>Video Understanding:</strong> Analyse de séquences vidéo</li>
+                        </ul>
+                    </div>
+                    <div class="challenges-section">
+                        <h4>Défis Techniques:</h4>
+                        <ul>
+                            <li><strong>Robustesse:</strong> Sensibilité aux conditions d'éclairage</li>
+                            <li><strong>Privacy:</strong> Protection des données personnelles</li>
+                            <li><strong>Éthique:</strong> Utilisation de la reconnaissance faciale</li>
+                            <li><strong>Performance:</strong> Besoin en puissance de calcul</li>
+                            <li><strong>Généralisation:</strong> Adaptation à de nouveaux contextes</li>
+                            <li><strong>Biais:</strong> Représentation inégale des populations</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-robot card-icon"></i>
+                    <h3>Robotique</h3>
+                    <p>Combinaison d'IA et de systèmes mécaniques pour créer des robots 
+                       autonomes et intelligents.</p>
+                    <div class="applications-section">
+                        <h4>Applications Principales:</h4>
+                        <ul>
+                            <li><strong>Industrie:</strong> Robots collaboratifs, chaînes de montage</li>
+                            <li><strong>Médical:</strong> Chirurgie assistée, rééducation robotique</li>
+                            <li><strong>Service:</strong> Robots d'accueil, assistance aux personnes</li>
+                            <li><strong>Exploration:</strong> Drones autonomes, robots sous-marins</li>
+                            <li><strong>Logistique:</strong> Robots de livraison, entrepôts automatisés</li>
+                            <li><strong>Agriculture:</strong> Robots agricoles, récolte automatisée</li>
+                        </ul>
+                    </div>
+                    <div class="innovations-section">
+                        <h4>Technologies Clés:</h4>
+                        <ul>
+                            <li><strong>Perception 3D:</strong> LIDAR, capteurs de profondeur</li>
+                            <li><strong>Navigation:</strong> SLAM, planification de trajectoire</li>
+                            <li><strong>Manipulation:</strong> Préhension adaptative, contrôle de force</li>
+                            <li><strong>Apprentissage:</strong> Imitation learning, reinforcement learning</li>
+                            <li><strong>Interaction:</strong> Communication homme-robot</li>
+                            <li><strong>Autonomie:</strong> Prise de décision en temps réel</li>
+                        </ul>
+                    </div>
+                    <div class="challenges-section">
+                        <h4>Défis et Risques:</h4>
+                        <ul>
+                            <li><strong>Sécurité:</strong> Risques d'accidents et de collisions</li>
+                            <li><strong>Éthique:</strong> Impact sur l'emploi et la société</li>
+                            <li><strong>Fiabilité:</strong> Robustesse dans des environnements complexes</li>
+                            <li><strong>Coût:</strong> Investissement initial élevé</li>
+                            <li><strong>Acceptation:</strong> Résistance sociale et culturelle</li>
+                            <li><strong>Régulation:</strong> Cadre légal et normes de sécurité</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Niveaux de Complexité</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <i class="fas fa-calculator card-icon"></i>
+                    <h3>IA Symbolique</h3>
+                    <p>Basée sur des règles et des symboles explicites, utilisant la 
+                       logique formelle.</p>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-brain card-icon"></i>
+                    <h3>IA Statistique</h3>
+                    <p>Utilise des méthodes probabilistes pour l'apprentissage et la 
+                       prise de décision.</p>
+                </div>
+                
+                <div class="info-card">
+                    <i class="fas fa-microchip card-icon"></i>
+                    <h3>IA Hybride</h3>
+                    <p>Combine différentes approches pour créer des systèmes plus 
+                       robustes et adaptatifs.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="related-resources">
+            <h2>Ressources Connexes</h2>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Livres Recommandés</h3>
+                    <ul>
+                        <li>
+                            <a href="#" target="_blank">Artificial Intelligence: A Guide for Thinking Humans</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">Life 3.0: Being Human in the Age of AI</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">AI Superpowers: China, Silicon Valley, and the New World Order</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Cours en Ligne</h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.coursera.org" target="_blank">Introduction à l'IA - Coursera</a>
+                        </li>
+                        <li>
+                            <a href="https://www.coursera.org" target="_blank">Deep Learning Specialization - Coursera</a>
+                        </li>
+                        <li>
+                            <a href="https://online.stanford.edu" target="_blank">Machine Learning - Stanford Online</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <h3>Articles Récents</h3>
+                    <ul>
+                        <li>
+                            <a href="#" target="_blank">Les dernières avancées en IA</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">Éthique et IA: Défis actuels</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">L'impact de l'IA sur l'emploi</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback-section">
+            <h2>Votre Avis Nous Intéresse</h2>
+            <div class="feedback-form">
+                <p class="feedback-intro">Aidez-nous à améliorer notre contenu en partageant votre expérience.</p>
+                <div class="rating">
+                    <span>Notez cette page:</span>
+                    <div class="stars">
+                        <i class="fas fa-star" data-rating="1"></i>
+                        <i class="fas fa-star" data-rating="2"></i>
+                        <i class="fas fa-star" data-rating="3"></i>
+                        <i class="fas fa-star" data-rating="4"></i>
+                        <i class="fas fa-star" data-rating="5"></i>
+                    </div>
+                </div>
+                <textarea placeholder="Votre commentaire..." class="feedback-text"></textarea>
+                <button class="submit-feedback">Envoyer</button>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <h2>Restez Informé</h2>
+            <p class="newsletter-intro">Abonnez-vous à notre newsletter pour recevoir les dernières actualités sur l'IA.</p>
+            <form class="newsletter-form">
+                <div class="form-group">
+                    <input type="email" placeholder="Votre email" required>
+                    <button type="submit">S'abonner</button>
+                </div>
+                <div class="privacy-notice">
+                    <input type="checkbox" id="privacyCheck" required>
+                    <label for="privacyCheck">J'accepte la politique de confidentialité</label>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Réalisé par :</h3>
+                <p>Klebi Rami</p>
+                <p>Grissi Chahin</p>
+                <p>Mechti Ahmed</p>
+            </div>
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="types.html">Types d'IA</a></li>
+                    <li><a href="applications.html">Applications</a></li>
+                    <li><a href="future.html">Futur</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: KlebiRami@gmail.com</p>
+                <p>Email: grissichahin@gmail.com</p>
+                <p>Email: ahmedmechti22@gmail.com</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Menu mobile
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Animation au défilement
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.info-card').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+    <script src="../scripts/main.js"></script>
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <div class="glossary-popup" id="glossaryPopup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <h3 id="popupTerm"></h3>
+            <p id="popupDefinition"></p>
+        </div>
+    </div>
+</body>
+</html> 

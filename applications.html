@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applications de l'IA - Guide IA</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-brain"></i>
+                <span>IA Guide</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="types.html">Types d'IA</a></li>
+                <li><a href="applications.html" class="active">Applications</a></li>
+                <li><a href="future.html">Futur</a></li>
+                <li><a href="ressources.html">Ressources</a></li>
+                <li><a href="../index.html#key-aspects" class="back-button"><i class="fas fa-arrow-left"></i> Retour aux Points Clés</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="progress-bar"></div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Applications de l'IA</h1>
+                <p class="subtitle">Découvrez Comment l'IA Transforme Notre Monde</p>
+            </div>
+        </section>
+
+        <section class="content">
+            <h2 class="gradient-text">Domaines d'Application</h2>
+            <p class="lead-text">
+                L'Intelligence Artificielle révolutionne de nombreux secteurs d'activité, 
+                offrant des solutions innovantes et améliorant l'efficacité des processus existants.
+                Explorez les différentes façons dont l'IA transforme notre société.
+            </p>
+            
+            <div class="interactive-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="sante"><span>Santé</span></button>
+                    <button class="tab-btn" data-tab="education"><span>Éducation</span></button>
+                    <button class="tab-btn" data-tab="transport"><span>Transport</span></button>
+                    <button class="tab-btn" data-tab="finance"><span>Finance</span></button>
+                </div>
+                
+                <div class="tab-content">
+                    <div class="tab-panel active" id="sante">
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <i class="fas fa-heartbeat card-icon"></i>
+                                <h3>Diagnostic Médical</h3>
+                                <p>Analyse d'images médicales et détection précoce des maladies avec une précision remarquable.</p>
+                            </div>
+                            <div class="info-card">
+                                <i class="fas fa-pills card-icon"></i>
+                                <h3>Développement de Médicaments</h3>
+                                <p>Accélération de la recherche et du développement de nouveaux traitements.</p>
+                            </div>
+                            <div class="info-card">
+                                <i class="fas fa-user-md card-icon"></i>
+                                <h3>Soins Personnalisés</h3>
+                                <p>Adaptation des traitements en fonction du profil génétique du patient.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-panel" id="education">
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <i class="fas fa-chalkboard-teacher card-icon"></i>
+                                <h3>Apprentissage Adaptatif</h3>
+                                <p>Personnalisation du contenu éducatif selon le niveau et le rythme de l'étudiant.</p>
+                            </div>
+                            <div class="info-card">
+                                <i class="fas fa-language card-icon"></i>
+                                <h3>Apprentissage des Langues</h3>
+                                <p>Systèmes intelligents pour l'acquisition de nouvelles langues.</p>
+                            </div>
+                            <div class="info-card">
+                                <i class="fas fa-chart-line card-icon"></i>
+                                <h3>Suivi des Progrès</h3>
+                                <p>Analyse détaillée de la progression et recommandations personnalisées.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-panel" id="transport">
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <i class="fas fa-car card-icon"></i>
+                                <h3>Véhicules Autonomes</h3>
+                                <p>Développement de voitures self-driving et systèmes de navigation avancés.</p>
+                            </div>
+                            <div class="info-card">
+                                <i class="fas fa-traffic-light card-icon"></i>
+                                <h3>Gestion du Trafic</h3>
+                                <p>Optimisation des flux de circulation et réduction des embouteillages.</p>
+                            </div>
+                            <div class="info-card">
+                                <i class="fas fa-route card-icon"></i>
+                                <h3>Logistique Intelligente</h3>
+                                <p>Optimisation des itinéraires et de la chaîne d'approvisionnement.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-panel" id="finance">
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <i class="fas fa-shield-alt card-icon"></i>
+                                <h3>Détection des Fraudes</h3>
+                                <p>Systèmes de sécurité avancés pour la protection des transactions.</p>
+                            </div>
+                            <div class="info-card">
+                                <i class="fas fa-chart-bar card-icon"></i>
+                                <h3>Trading Algorithmique</h3>
+                                <p>Analyse en temps réel des marchés et exécution automatique des trades.</p>
+                            </div>
+                            <div class="info-card">
+                                <i class="fas fa-piggy-bank card-icon"></i>
+                                <h3>Services Bancaires</h3>
+                                <p>Personnalisation des services financiers et assistance client 24/7.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <h3 class="gradient-text">Défis Majeurs</h3>
+                <p class="chart-description">
+                    Analyse approfondie des principaux défis à relever dans l'implémentation de l'IA dans différents secteurs.
+                </p>
+                <div class="challenges-list">
+                    <div class="challenge-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <div class="challenge-content">
+                            <span class="challenge-title">Éthique et Confidentialité</span>
+                            <p class="challenge-description">Protection des données personnelles et prévention des biais algorithmiques</p>
+                            <div class="challenge-bar" data-value="85">
+                                <div class="bar-fill"></div>
+                                <span class="bar-value">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="challenge-item">
+                        <i class="fas fa-users"></i>
+                        <div class="challenge-content">
+                            <span class="challenge-title">Acceptation Sociale</span>
+                            <p class="challenge-description">Adoption par le public et confiance dans les systèmes d'IA</p>
+                            <div class="challenge-bar" data-value="75">
+                                <div class="bar-fill"></div>
+                                <span class="bar-value">75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="challenge-item">
+                        <i class="fas fa-cogs"></i>
+                        <div class="challenge-content">
+                            <span class="challenge-title">Infrastructure Technique</span>
+                            <p class="challenge-description">Capacité de calcul et stockage des données massives</p>
+                            <div class="challenge-bar" data-value="70">
+                                <div class="bar-fill"></div>
+                                <span class="bar-value">70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="avantages-inconvenients" class="content">
+            <h2>Avantages et Inconvénients de l'IA</h2>
+            <p class="lead-text">
+                L'intelligence artificielle présente des opportunités remarquables mais soulève également 
+                des préoccupations importantes. Analysons les bénéfices et les défis que cette technologie 
+                apporte à notre société.
+            </p>
+            
+            <div class="comparison-container">
+                <div class="advantages-section">
+                    <h3>Avantages</h3>
+                    <div class="advantage-list">
+                        <div class="advantage-item">
+                            <i class="fas fa-chart-line"></i>
+                            <div class="advantage-content">
+                                <h4>Efficacité et Productivité</h4>
+                                <p>Automatisation des tâches répétitives et amélioration de la précision.</p>
+                            </div>
+                        </div>
+                        <div class="advantage-item">
+                            <i class="fas fa-heartbeat"></i>
+                            <div class="advantage-content">
+                                <h4>Amélioration des Soins de Santé</h4>
+                                <p>Diagnostic plus précis et traitements personnalisés.</p>
+                            </div>
+                        </div>
+                        <div class="advantage-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <div class="advantage-content">
+                                <h4>Innovation et Découverte</h4>
+                                <p>Accélération de la recherche et solutions créatives.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="disadvantages-section">
+                    <h3>Inconvénients</h3>
+                    <div class="disadvantage-list">
+                        <div class="disadvantage-item">
+                            <i class="fas fa-user-slash"></i>
+                            <div class="disadvantage-content">
+                                <h4>Impact sur l'Emploi</h4>
+                                <p>Automatisation et reconversion professionnelle nécessaire.</p>
+                            </div>
+                        </div>
+                        <div class="disadvantage-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <div class="disadvantage-content">
+                                <h4>Questions Éthiques</h4>
+                                <p>Confidentialité des données et biais algorithmiques.</p>
+                            </div>
+                        </div>
+                        <div class="disadvantage-item">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <div class="disadvantage-content">
+                                <h4>Dépendance Technologique</h4>
+                                <p>Risque de dépendance excessive aux systèmes automatisés.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Réalisé par :</h3>
+                <p>Klebi Rami</p>
+                <p>Grissi Chahin</p>
+                <p>Mechti Ahmed</p>
+            </div>
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="../index.html">Accueil</a></li>
+                    <li><a href="types.html">Types d'IA</a></li>
+                    <li><a href="applications.html">Applications</a></li>
+                    <li><a href="future.html">Futur</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: KlebiRami@gmail.com</p>
+                <p>Email: grissichahin@gmail.com</p>
+                <p>Email: ahmedmechti22@gmail.com</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <script src="../scripts/applications.js"></script>
+</body>
+</html> 
